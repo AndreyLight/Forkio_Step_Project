@@ -1,0 +1,98 @@
+.people {
+    min-height: 882px;
+    background: url(../img/testmonialsNew.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    &__title {
+        padding-top: 0px;
+        color: #FFFFFF;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 48px;
+        text-align: center;
+        margin-bottom: 50px;
+        font-family: 'Montserrat';
+        font-style: normal;
+    }
+}
+
+.card {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    gap: 10px;
+    &__text {
+        font-family: 'Lato', sans-serif;
+        font-style: italic;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+    }
+    &__item {
+        display: flex;
+        max-width: 345px;
+        flex-direction: column;
+        align-items: center;
+        height: 153px;
+        justify-content: space-between;
+        text-align: center;
+        margin-bottom: 37px;
+    }
+    &__description {
+        margin: 0 auto;
+        text-align: center;
+        max-width: 887px;
+        color: #A291A5;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        &:after {
+            margin: 20px 0 0;
+            content: "";
+            height: 2px;
+            display: block;
+            background-color: rgba(100, 87, 102, 0.2);
+        }
+    }
+}
+
+@media screen and (min-width:481px) {
+    .people {
+        min-height: 882px;
+        padding: 5rem 0 7rem;
+    }
+    .card {
+        padding-bottom: 69px;
+        grid-template-columns: 1fr 1fr;
+        &__description:after {
+            margin: 20px 10% 0;
+        }
+        &__item {
+            margin-bottom: 54px;
+        }
+    }
+}
+
+@media screen and (min-width:993px) {
+    .people {
+        min-height: 769px;
+    }
+    .card {
+        padding-bottom: 120px;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .people {
+        min-height: 769px;
+    }
+    .card {
+        padding-bottom: 120px;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

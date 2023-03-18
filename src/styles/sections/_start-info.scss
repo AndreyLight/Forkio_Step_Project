@@ -1,0 +1,62 @@
+.intro{
+    min-height: 600px;
+    background: url("../img/imgintro.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+ 
+    &__info{
+        font-family: 'Montserrat';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;}
+
+    &__text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+    }
+
+    &__title{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    color: #FFFFFF;
+    margin-bottom: 25px;}
+
+    &__sub-title{
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    color: #8D81AC;
+    margin-bottom: 18px; 
+    }
+
+    &__version{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #848E97;
+    }
+  
+    }
+
+    .button-info{
+   
+    max-width: 390px;
+    position: absolute;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    bottom: -22px;
+    left: 15px;
+    right: 15px;
+    margin: 0 auto;
+
+}
+

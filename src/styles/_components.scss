@@ -1,0 +1,16 @@
+.button {
+    border: 1px solid transparent;
+    background-color: #8D81AC;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 15px;
+    padding: 12px 25px;
+   
+    border-radius: 40px;
+}
+ .button:hover{
+    background-color: white;
+    color: #8D81AC;
+    border-color: #8D81AC;
+ }
