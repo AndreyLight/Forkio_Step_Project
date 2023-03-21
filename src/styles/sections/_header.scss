@@ -22,6 +22,8 @@
 }
 
 &-text{
+  text-transform: uppercase;
+  color:#8D81AC;
   font-weight: 700;
   font-size: 24px;
   line-height: 16px;
@@ -121,7 +123,7 @@ justify-self: start;
 display: flex;
 align-items: center;
 gap: 17px;
-&:hover {
+&:hover &-text {
   color: white;
 }
 &:hover img:nth-child(1){
